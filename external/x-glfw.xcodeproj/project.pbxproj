@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00710C006D991A726F2C0A40 /* linux_joystick.c in Sources */ = {isa = PBXBuildFile; fileRef = 36DF2B288442215AFA612168 /* linux_joystick.c */; };
+		013296BA725537AC281BE4FA /* egl_context.c in Sources */ = {isa = PBXBuildFile; fileRef = 11007E42393B36F420D6C482 /* egl_context.c */; };
+		1598866659E72BD89C0E64A6 /* null_monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = C3268C2EE4F2396021A7626E /* null_monitor.c */; };
+		16BC11A201A83794498DFFE2 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 614E84AA05A1225C17D96AEA /* input.c */; };
+		48288B249EB5F596772F0964 /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = 3743520C3AB4243EBC20C84C /* vulkan.c */; };
+		4984EF128DD39484CFFACD52 /* posix_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F55081A8120B54CBDD5DE5A /* posix_module.c */; };
+		776A68BAE492772CE62566FA /* osmesa_context.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D0142778FF774EDAEF782 /* osmesa_context.c */; };
+		84B7DD4A7E1DDEBC71B93B8A /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = 51AA26D2F4F5B0040FC67D12 /* init.c */; };
+		8B9CA3E6FCBF44D8B285F226 /* null_window.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D19E2AE95549B607CF028EE /* null_window.c */; };
+		91C7CC5EC2ABC450D5C3FA9E /* null_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 9511B9A6BB37E958223EDFE6 /* null_init.c */; };
+		947591A48E374E16C8364FE4 /* x11_window.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F32F48CB7A3D8BEFC42AACC /* x11_window.c */; };
+		96A9935CF1EAE6CEC545319C /* x11_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 69F644C48108DFF67124DB04 /* x11_init.c */; };
+		9DE895C40F0B36B6C4D1E404 /* x11_monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 09E5A7AC3220605E19BBEDEC /* x11_monitor.c */; };
+		A392C65814B5674ACA7C1498 /* xkb_unicode.c in Sources */ = {isa = PBXBuildFile; fileRef = BF99C500E7D47DB2CF700B40 /* xkb_unicode.c */; };
+		B5F89AD20C860544E4FF1912 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D27E5DA2098B80CA2055C1A /* window.c */; };
+		BE093C360257E1A8447F1A76 /* posix_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 2040ACFE420C5A307EC1833E /* posix_thread.c */; };
+		C3FC3BD6568A05C8BF62AA16 /* null_joystick.c in Sources */ = {isa = PBXBuildFile; fileRef = 4308219E0673E350451787DE /* null_joystick.c */; };
+		CCAE7192FC404084D74D7FD2 /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ED5739A01C39A4C90E979DA /* monitor.c */; };
+		D1991EC4CB5ADB360559DD04 /* posix_time.c in Sources */ = {isa = PBXBuildFile; fileRef = F9E93FAC425A23DE86F8F5EC /* posix_time.c */; };
+		D958D5604A7B7652004223A0 /* glx_context.c in Sources */ = {isa = PBXBuildFile; fileRef = A1FFDF88CA3A983AB1D625C8 /* glx_context.c */; };
+		F4554CCC23E71BBEFEF45B0C /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = 032B4634A6196CE6353F4C74 /* context.c */; };
+		F729754C526AC8BE25C5138C /* platform.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DA35FB434B5FAE624D1F5F4 /* platform.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032B4634A6196CE6353F4C74 /* context.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = context.c; path = glfw/src/context.c; sourceTree = "<group>"; };
+		09A741482B72EE7A68281788 /* posix_thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = posix_thread.h; path = glfw/src/posix_thread.h; sourceTree = "<group>"; };
+		09E5A7AC3220605E19BBEDEC /* x11_monitor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = x11_monitor.c; path = glfw/src/x11_monitor.c; sourceTree = "<group>"; };
+		11007E42393B36F420D6C482 /* egl_context.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = egl_context.c; path = glfw/src/egl_context.c; sourceTree = "<group>"; };
+		1D27E5DA2098B80CA2055C1A /* window.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = window.c; path = glfw/src/window.c; sourceTree = "<group>"; };
+		1D9B4B2E34ADE66024C9E16E /* internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = internal.h; path = glfw/src/internal.h; sourceTree = "<group>"; };
+		1DA35FB434B5FAE624D1F5F4 /* platform.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = platform.c; path = glfw/src/platform.c; sourceTree = "<group>"; };
+		2040ACFE420C5A307EC1833E /* posix_thread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = posix_thread.c; path = glfw/src/posix_thread.c; sourceTree = "<group>"; };
+		20DFC912E44B8AC422EF2F52 /* null_platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = null_platform.h; path = glfw/src/null_platform.h; sourceTree = "<group>"; };
+		2A2D0142778FF774EDAEF782 /* osmesa_context.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = osmesa_context.c; path = glfw/src/osmesa_context.c; sourceTree = "<group>"; };
+		36DF2B288442215AFA612168 /* linux_joystick.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = linux_joystick.c; path = glfw/src/linux_joystick.c; sourceTree = "<group>"; };
+		3743520C3AB4243EBC20C84C /* vulkan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = vulkan.c; path = glfw/src/vulkan.c; sourceTree = "<group>"; };
+		4308219E0673E350451787DE /* null_joystick.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = null_joystick.c; path = glfw/src/null_joystick.c; sourceTree = "<group>"; };
+		4DF1EE88115DB03A500154C8 /* null_joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = null_joystick.h; path = glfw/src/null_joystick.h; sourceTree = "<group>"; };
+		51AA26D2F4F5B0040FC67D12 /* init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = init.c; path = glfw/src/init.c; sourceTree = "<group>"; };
+		5ED5739A01C39A4C90E979DA /* monitor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = monitor.c; path = glfw/src/monitor.c; sourceTree = "<group>"; };
+		5F55081A8120B54CBDD5DE5A /* posix_module.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = posix_module.c; path = glfw/src/posix_module.c; sourceTree = "<group>"; };
+		614E84AA05A1225C17D96AEA /* input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = input.c; path = glfw/src/input.c; sourceTree = "<group>"; };
+		69F644C48108DFF67124DB04 /* x11_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = x11_init.c; path = glfw/src/x11_init.c; sourceTree = "<group>"; };
+		6D19E2AE95549B607CF028EE /* null_window.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = null_window.c; path = glfw/src/null_window.c; sourceTree = "<group>"; };
+		6F32F48CB7A3D8BEFC42AACC /* x11_window.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = x11_window.c; path = glfw/src/x11_window.c; sourceTree = "<group>"; };
+		85EBC5D9B7E5108B31C44C19 /* libx-glfw-debug-x64-clang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libx-glfw-debug-x64-clang.a"; path = "libx-glfw-debug-x64-clang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F849EB6D7F582E81C9454F6 /* posix_time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = posix_time.h; path = glfw/src/posix_time.h; sourceTree = "<group>"; };
+		9070BFF0B23C6D22EEF19630 /* x11_platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = x11_platform.h; path = glfw/src/x11_platform.h; sourceTree = "<group>"; };
+		9241D97EA95474B099706FBE /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = platform.h; path = glfw/src/platform.h; sourceTree = "<group>"; };
+		93B344B2E1163AE457353AF2 /* linux_joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linux_joystick.h; path = glfw/src/linux_joystick.h; sourceTree = "<group>"; };
+		9511B9A6BB37E958223EDFE6 /* null_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = null_init.c; path = glfw/src/null_init.c; sourceTree = "<group>"; };
+		A1FFDF88CA3A983AB1D625C8 /* glx_context.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = glx_context.c; path = glfw/src/glx_context.c; sourceTree = "<group>"; };
+		BF99C500E7D47DB2CF700B40 /* xkb_unicode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = xkb_unicode.c; path = glfw/src/xkb_unicode.c; sourceTree = "<group>"; };
+		C3268C2EE4F2396021A7626E /* null_monitor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = null_monitor.c; path = glfw/src/null_monitor.c; sourceTree = "<group>"; };
+		D0F495F2E8073124D8232C32 /* mappings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mappings.h; path = glfw/src/mappings.h; sourceTree = "<group>"; };
+		F9E93FAC425A23DE86F8F5EC /* posix_time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = posix_time.c; path = glfw/src/posix_time.c; sourceTree = "<group>"; };
+		FD51B4AA258C6D5C0D27FAEA /* xkb_unicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xkb_unicode.h; path = glfw/src/xkb_unicode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		935AB6C956C6787B956A1D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAAEDD75F811D3A76E30D3B5 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85EBC5D9B7E5108B31C44C19 /* libx-glfw-debug-x64-clang.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAC9E15D857A0C7ABFC2455 /* x-glfw */ = {
+			isa = PBXGroup;
+			children = (
+				032B4634A6196CE6353F4C74 /* context.c */,
+				11007E42393B36F420D6C482 /* egl_context.c */,
+				A1FFDF88CA3A983AB1D625C8 /* glx_context.c */,
+				51AA26D2F4F5B0040FC67D12 /* init.c */,
+				614E84AA05A1225C17D96AEA /* input.c */,
+				1D9B4B2E34ADE66024C9E16E /* internal.h */,
+				36DF2B288442215AFA612168 /* linux_joystick.c */,
+				93B344B2E1163AE457353AF2 /* linux_joystick.h */,
+				D0F495F2E8073124D8232C32 /* mappings.h */,
+				5ED5739A01C39A4C90E979DA /* monitor.c */,
+				9511B9A6BB37E958223EDFE6 /* null_init.c */,
+				4308219E0673E350451787DE /* null_joystick.c */,
+				4DF1EE88115DB03A500154C8 /* null_joystick.h */,
+				C3268C2EE4F2396021A7626E /* null_monitor.c */,
+				20DFC912E44B8AC422EF2F52 /* null_platform.h */,
+				6D19E2AE95549B607CF028EE /* null_window.c */,
+				2A2D0142778FF774EDAEF782 /* osmesa_context.c */,
+				1DA35FB434B5FAE624D1F5F4 /* platform.c */,
+				9241D97EA95474B099706FBE /* platform.h */,
+				5F55081A8120B54CBDD5DE5A /* posix_module.c */,
+				2040ACFE420C5A307EC1833E /* posix_thread.c */,
+				09A741482B72EE7A68281788 /* posix_thread.h */,
+				F9E93FAC425A23DE86F8F5EC /* posix_time.c */,
+				8F849EB6D7F582E81C9454F6 /* posix_time.h */,
+				3743520C3AB4243EBC20C84C /* vulkan.c */,
+				1D27E5DA2098B80CA2055C1A /* window.c */,
+				69F644C48108DFF67124DB04 /* x11_init.c */,
+				09E5A7AC3220605E19BBEDEC /* x11_monitor.c */,
+				9070BFF0B23C6D22EEF19630 /* x11_platform.h */,
+				6F32F48CB7A3D8BEFC42AACC /* x11_window.c */,
+				BF99C500E7D47DB2CF700B40 /* xkb_unicode.c */,
+				FD51B4AA258C6D5C0D27FAEA /* xkb_unicode.h */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+			);
+			name = "x-glfw";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF5C69F26B7831160B684DF /* x-glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8195FF284501C0DA83A56568 /* Build configuration list for PBXNativeTarget "x-glfw" */;
+			buildPhases = (
+				03423769C6ADF91B05519DA9 /* Resources */,
+				6CEF50C0305B12726EFEB700 /* Sources */,
+				935AB6C956C6787B956A1D09 /* Frameworks */,
+				AAAEDD75F811D3A76E30D3B5 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "x-glfw";
+			productName = "x-glfw";
+			productReference = 85EBC5D9B7E5108B31C44C19 /* libx-glfw-debug-x64-clang.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "x-glfw" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = FAAC9E15D857A0C7ABFC2455 /* x-glfw */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF5C69F26B7831160B684DF /* libx-glfw-debug-x64-clang.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03423769C6ADF91B05519DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CEF50C0305B12726EFEB700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4554CCC23E71BBEFEF45B0C /* context.c in Sources */,
+				013296BA725537AC281BE4FA /* egl_context.c in Sources */,
+				D958D5604A7B7652004223A0 /* glx_context.c in Sources */,
+				84B7DD4A7E1DDEBC71B93B8A /* init.c in Sources */,
+				16BC11A201A83794498DFFE2 /* input.c in Sources */,
+				00710C006D991A726F2C0A40 /* linux_joystick.c in Sources */,
+				CCAE7192FC404084D74D7FD2 /* monitor.c in Sources */,
+				91C7CC5EC2ABC450D5C3FA9E /* null_init.c in Sources */,
+				C3FC3BD6568A05C8BF62AA16 /* null_joystick.c in Sources */,
+				1598866659E72BD89C0E64A6 /* null_monitor.c in Sources */,
+				8B9CA3E6FCBF44D8B285F226 /* null_window.c in Sources */,
+				776A68BAE492772CE62566FA /* osmesa_context.c in Sources */,
+				F729754C526AC8BE25C5138C /* platform.c in Sources */,
+				4984EF128DD39484CFFACD52 /* posix_module.c in Sources */,
+				BE093C360257E1A8447F1A76 /* posix_thread.c in Sources */,
+				D1991EC4CB5ADB360559DD04 /* posix_time.c in Sources */,
+				48288B249EB5F596772F0964 /* vulkan.c in Sources */,
+				B5F89AD20C860544E4FF1912 /* window.c in Sources */,
+				96A9935CF1EAE6CEC545319C /* x11_init.c in Sources */,
+				9DE895C40F0B36B6C4D1E404 /* x11_monitor.c in Sources */,
+				947591A48E374E16C8364FE4 /* x11_window.c in Sources */,
+				A392C65814B5674ACA7C1498 /* xkb_unicode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FED99E4FBB8910C4A5F7DE /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++2a";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					GLEW_STATIC,
+					"_GLFW_X11=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = "../_build_/release-x64-clang/x64/release/x-glfw";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-march=native",
+					"-Wall",
+					"-pthread",
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-ldl",
+					"-lgomp",
+					"-lGL",
+					"-lGLX",
+					"-pthread",
+				);
+				SYMROOT = ../lib;
+				USER_HEADER_SEARCH_PATHS = (
+					glfw/include,
+					"glew-1.13.0/include",
+				);
+			};
+			name = release;
+		};
+		7D502E88C163FFBAB53584C8 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../lib;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "x-glfw-release-x64-clang";
+			};
+			name = release;
+		};
+		DD47D6642FCE0156021264A4 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++2a";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					GLEW_STATIC,
+					"_GLFW_X11=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = "../_build_/debug-x64-clang/x64/debug/x-glfw";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-march=native",
+					"-Wall",
+					"-pthread",
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-ldl",
+					"-lgomp",
+					"-lGL",
+					"-lGLX",
+					"-pthread",
+				);
+				SYMROOT = ../lib;
+				USER_HEADER_SEARCH_PATHS = (
+					glfw/include,
+					"glew-1.13.0/include",
+				);
+			};
+			name = debug;
+		};
+		FD76D80E0FA0B4C043919E4E /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../lib;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "x-glfw-debug-x64-clang";
+			};
+			name = debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "x-glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD47D6642FCE0156021264A4 /* debug */,
+				42FED99E4FBB8910C4A5F7DE /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		8195FF284501C0DA83A56568 /* Build configuration list for PBXNativeTarget "libx-glfw-debug-x64-clang.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD76D80E0FA0B4C043919E4E /* debug */,
+				7D502E88C163FFBAB53584C8 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
