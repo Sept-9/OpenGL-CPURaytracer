@@ -1,6 +1,0 @@
-use make to compile
-run example:
-./bin/main-debug-x64-gcc.exe ./objects/cornell_box.obj ./objects/cornell_box.mtl 
-use key "R" to render
-Use the number keys 1–4 to switch between different rendering modes.
-Note: Modes 2–4 are incremental and depend on the previous mode, except for mode 1.
